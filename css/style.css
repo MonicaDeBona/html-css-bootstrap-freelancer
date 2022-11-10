@@ -1,6 +1,14 @@
-.header {
+header {
     background-color: #1abc9c;
 }
+
+.header-content {
+    background-color: #a328c2;
+    height: 450px;
+    margin: auto;
+}
+
+
 
 .my-content {
     background-color: #a328c2;
@@ -14,9 +22,8 @@
     border: 1px solid white;
 }
 
-.about-us {
+.about {
     background-color: #1abc9c;
-    height: 500px;
 }
 
 .top-footer {
