@@ -1,0 +1,10 @@
+.header {
+    background-color: #1abc9c;
+    height: 400px;
+}
+
+.my-content {
+    background-color: #a328c2;
+    height: 300px;
+    border: 1px solid white;
+}
