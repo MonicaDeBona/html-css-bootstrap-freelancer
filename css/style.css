@@ -8,3 +8,18 @@
     height: 300px;
     border: 1px solid white;
 }
+
+.about-us {
+    background-color: #1abc9c;
+    height: 500px;
+}
+
+.top-footer {
+    background-color: #3a546d;
+    height: 300px;
+}
+
+.bottom-footer {
+    background-color: #2c3e50;
+    height: 100px;
+}
