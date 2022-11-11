@@ -1,19 +1,16 @@
+/* ROOT */
+:root{
+    --main-bg-color1:  #1abc9c;
+    --secondary-bg-color:#3a546d;
+    --secondary-bg-color1: #2c3e50;
+}
+
 header {
-    background-color: #1abc9c;
+    background-color: var(--main-bg-color1);
 }
 
-.header-content {
+.section#jumbo {
     background-color: #a328c2;
-    height: 450px;
-    margin: auto;
-}
-
-
-
-.my-content {
-    background-color: #a328c2;
-    height: 450px;
-    border: 1px solid white;
 }
 
 .my-content-img {
@@ -23,15 +20,16 @@ header {
 }
 
 .about {
-    background-color: #1abc9c;
+    background-color: var(--main-bg-color1);
 }
 
 .top-footer {
-    background-color: #3a546d;
+    background-color: var(--secondary-bg-color);
     height: 300px;
 }
 
+
 .bottom-footer {
-    background-color: #2c3e50;
+    background-color: var(--secondary-bg-color1);
     height: 100px;
 }
