@@ -20,36 +20,40 @@
         
         <header class="mb-5">
             <!-- todo nav bar -->
-            <!-- <nav class="navbar-dark navbar-expand-md text-uppercase ">
-                <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-md text-uppercase">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         start bootstrap
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse flex-md-grow-0" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    portfolio
+                                <a class="nav-link" aria-current="page" href="#">
+                                    Home
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    about
+                                    Link
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link" href="#">
-                                    contact
+                                    Dropdown
                                 </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Home</a></li>
+                                    <li><a class="dropdown-item" href="#">Link</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav> -->
-
+            </nav>
             <section id="jumbo" class="container p-5 text-white">
                 <div class="row justify-content-center align-items-center text-center text-uppercase">
                     <div class="col-12 col-md-8 col-lg-8">
@@ -168,20 +172,36 @@
         </main>
 
 
-        <footer>
-            <section class="top-footer text-center ">
+        <footer class="text-white">
+            <section class="top-footer text-center p-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <div class="location">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis minima
-                            </div>
+                            <h6 class="text-uppercase">
+                                location
+                            </h6>
+                            <p>
+                                2215 Jhon Daniel Drive Clark, MO 54243
+                            </p>
                         </div>
                         <div class="col-12 col-md-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis minima
+                            <h6 class="text-uppercase">
+                                around the web
+                            </h6>
+                            <p>
+                                2215 Jhon Daniel Drive Clark, MO 54243
+                            </p>
                         </div>
                         <div class="col-12 col-md-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis minima
+                            <h6 class="text-uppercase">
+                                about freelancer
+                            </h6>
+                            <p>
+                                Freelance is a free to use, open source Bootstrap theme created by
+                                <a class="text-decoration-none" href="#">
+                                    Start Bootstrap
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
