@@ -3,23 +3,65 @@
     --main-bg-color1:  #1abc9c;
     --secondary-bg-color:#3a546d;
     --secondary-bg-color1: #2c3e50;
+    --text-color: #333333;
 }
 
 header {
     background-color: var(--main-bg-color1);
 }
 
+nav {
+    background-color: var(--secondary-bg-color);
+}
+
+a { 
+    color:white !important; 
+}
+
+/* a:hover, 
+a:visited { 
+    color:white !important; 
+} */
+
+.navbar-toggler {
+    background-color: var(--secondary-bg-color);
+    border: 1px solid white;
+}
+
 .section#jumbo {
     background-color: #a328c2;
 }
 
+#jumbo .profile {
+    width: 200px;
+}
+
+#jumbo .jumbo-icon-divider .empty {
+    border: 1px solid white;
+    width: 70px;
+}
+
+#portfolio .portfolio-icon-divider .empty {
+    border: 1px solid #333333;
+    width: 70px;
+}
+
+#about .about-icon-divider .empty {
+    border: 1px solid white;
+    width: 40px;
+}
+
+#contact .contact-icon-divider .empty {
+    border: 1px solid white;
+    width: 40px;
+}
+
 .my-content-img {
     background-color: #a328c2;
-    height: 300px;
     border: 1px solid white;
 }
 
-.about {
+#about {
     background-color: var(--main-bg-color1);
 }
 
