@@ -7,6 +7,10 @@
         <title>Freelancer</title>
 
         <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+
         <!-- font awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
@@ -17,66 +21,66 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
-        <header class="mb-5">
-            <!-- todo nav bar -->
-            <nav class="navbar navbar-dark navbar-expand-md text-uppercase">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-md text-uppercase py-4 nav-bg">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#">
                         start bootstrap
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse flex-md-grow-0" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    Home
+                                <a class="nav-link text-white" href="#">
+                                    portfolio
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Link
+                                <a class="nav-link text-white" href="#">
+                                    about
                                 </a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#">
-                                    Dropdown
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">
+                                    contact
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Home</a></li>
-                                    <li><a class="dropdown-item" href="#">Link</a></li>
-                                    <li><a class="dropdown-item" href="#">Dropdown</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            portfolio
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            about
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            contact
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <section id="jumbo" class="container p-5 text-white">
-                <div class="row justify-content-center align-items-center text-center text-uppercase">
-                    <div class="col-12 col-md-8 col-lg-8">
-                        <img class="pb-3 profile" src="img/avatar.svg" alt="">
-                    </div>
-                    <div class="col-12 col-md-8 col-lg-8">
-                        <h1>
-                            Start Bootstrap
-                        </h1>
-                    </div>
-                    <div class="col-12 col-md-8 col-lg-8">
-                        <div class="jumbo-icon-divider d-flex align-items-center justify-content-center pt-2 pb-3">
-                            <div class="empty"></div>
-                            <i class="fa-solid fa-star"></i>
-                            <div class="empty"></div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-8 col-lg-8">
-                        <p>
-                            graphic artist - web designer - illustrator
-                        </p>
-                    </div>
+            <section id="jumbo" class="text-uppercase text-white text-center p-4 main-bg mb-5">
+                <img class="avatar mb-3" src="img/avatar.svg" alt="">
+                <h1 class="mb-3">
+                    start bootstrap
+                </h1>
+                <div class="icon-divider mb-3 d-flex align-items-center justify-content-center">
+                    <div class="empty border-light border-top border-3 rounded-3 me-1 me-md-3 me-lg-4 d-inline-block"></div>
+                    <i class="fa-solid fa-star fs-2"></i>
+                    <div class="empty border-light border-top border-3 rounded-3 ms-1 ms-md-3 ms-lg-4 d-inline-block"></div>
                 </div>
+                <h6>
+                    graphic artist - web designer - illustrator
+                </h6>
             </section>
         </header>
 
@@ -94,7 +98,7 @@
                 <div class="row g-2 justify-content-center">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="my-content-img">
-                            <img class="w-100" src="img/cabin.png" alt="chalet pic">
+                            <img class="w-100 img-fluid" src="img/cabin.png" alt="chalet pic">
                         </div>
                     </div>
 
