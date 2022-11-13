@@ -27,8 +27,12 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
-.text-color {
+.text-color1 {
     color: var(--text-color);
+}
+
+.text-color2 {
+    color: var(--secondary-bg-color1);
 }
 
 .avatar {
@@ -38,4 +42,14 @@ body {
 .empty {
     width: 15%;
     max-width: 90px;
+}
+
+.icon-f { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
 }
